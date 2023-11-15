@@ -1,0 +1,60 @@
+{
+  "$type": "Sungero.Metadata.SolutionMetadata, Sungero.Metadata",
+  "NameGuid": "23183c78-62e8-475b-ab31-d6e5027bbcb7",
+  "Name": "Autotexts",
+  "AsyncHandlers": [],
+  "ClientAssemblyName": "mtg.Autotexts.Client",
+  "ClientBaseAssemblyName": "mtg.Autotexts.ClientBase",
+  "ClientBaseNamespace": "mtg.Autotexts.ClientBase",
+  "ClientNamespace": "mtg.Autotexts.Client",
+  "Code": "Autotex",
+  "CompanyCode": "mtg",
+  "Cover": {
+    "NameGuid": "38eff8f1-6f79-4619-8cca-28680447613f",
+    "Actions": [],
+    "Background": null,
+    "Footer": {
+      "NameGuid": "503ecad0-f594-4945-8d60-b5a770a309dd",
+      "BackgroundPosition": "Stretch"
+    },
+    "Groups": [],
+    "Header": {
+      "NameGuid": "857c0c5c-d7fe-4ca3-8e42-b84f8875ec63",
+      "BackgroundPosition": "Stretch"
+    },
+    "Tabs": []
+  },
+  "DesktopViews": [],
+  "IconResourcesKeys": [],
+  "Importance": "Medium",
+  "InterfaceAssemblyName": "Sungero.Domain.Interfaces",
+  "InterfaceNamespace": "mtg.Autotexts",
+  "IsolatedAssemblyName": "mtg.Autotexts.Isolated",
+  "IsolatedNamespace": "mtg.Autotexts.Isolated",
+  "OrderedSpecialFolders": [],
+  "PublicStructures": [],
+  "ResourceInterfaceAssemblyName": "Sungero.Domain.Interfaces",
+  "ResourceInterfaceNamespace": "mtg.Autotexts",
+  "ResourcesKeys": [],
+  "ServerAssemblyName": "mtg.Autotexts.Server",
+  "ServerNamespace": "mtg.Autotexts.Server",
+  "SharedAssemblyName": "mtg.Autotexts.Shared",
+  "SharedNamespace": "mtg.Autotexts.Shared",
+  "SpecialFolders": [],
+  "Version": "0.0.1.0",
+  "Widgets": [],
+  "Versions": [
+    {
+      "Type": "SolutionMetadata",
+      "Number": 8
+    },
+    {
+      "Type": "ModuleMetadata",
+      "Number": 8
+    },
+    {
+      "Type": "DomainApi",
+      "Number": 3
+    }
+  ]
+}

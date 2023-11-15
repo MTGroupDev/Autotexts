@@ -1,0 +1,149 @@
+{
+  "$type": "Sungero.Metadata.ModuleMetadata, Sungero.Metadata",
+  "NameGuid": "5933d4a5-2447-44ae-bc61-635eb4436ff6",
+  "Name": "AutotextsModule",
+  "AsyncHandlers": [],
+  "ClientAssemblyName": "mtg.AutotextsModule.Client",
+  "ClientBaseAssemblyName": "mtg.AutotextsModule.ClientBase",
+  "ClientBaseNamespace": "mtg.AutotextsModule.ClientBase",
+  "ClientNamespace": "mtg.AutotextsModule.Client",
+  "Code": "Autote1",
+  "CompanyCode": "mtg",
+  "Cover": {
+    "NameGuid": "a6e31efc-0b22-477a-a442-c1b6b3269c20",
+    "Actions": [
+      {
+        "$type": "Sungero.Metadata.CoverEntityListActionMetadata, Sungero.Metadata",
+        "NameGuid": "d5ee0e73-3f76-422a-ade8-f5de1782ed94",
+        "Name": "Action",
+        "EntityTypeId": "6725f88e-8e9a-4c01-8f0d-9dd161e771b1",
+        "GroupId": "7c00d34e-46f0-4669-97ca-c138ace3d8a1"
+      }
+    ],
+    "Background": null,
+    "Footer": {
+      "NameGuid": "93045820-ecce-405a-a343-750779a36540",
+      "BackgroundPosition": "Stretch"
+    },
+    "Groups": [
+      {
+        "NameGuid": "7c00d34e-46f0-4669-97ca-c138ace3d8a1",
+        "Name": "Group",
+        "BackgroundPosition": "Stretch",
+        "TabId": "1e6e7f30-8d72-443e-8b2e-3b893a391053"
+      }
+    ],
+    "Header": {
+      "NameGuid": "f7404d9e-9c0a-40fc-94ee-1ef293690986",
+      "BackgroundPosition": "Stretch"
+    },
+    "Tabs": [
+      {
+        "NameGuid": "1e6e7f30-8d72-443e-8b2e-3b893a391053",
+        "Name": "Tab"
+      }
+    ]
+  },
+  "Dependencies": [
+    {
+      "Id": "23183c78-62e8-475b-ab31-d6e5027bbcb7",
+      "IsSolutionModule": true,
+      "MaxVersion": "",
+      "MinVersion": ""
+    }
+  ],
+  "ExplorerTreeOrder": [
+    {
+      "ItemId": "6725f88e-8e9a-4c01-8f0d-9dd161e771b1"
+    },
+    {
+      "ItemId": "f88cba0e-4851-4f97-b1d8-ede6638b8d7d",
+      "PreviousItemId": "6725f88e-8e9a-4c01-8f0d-9dd161e771b1"
+    }
+  ],
+  "HandledEvents": [
+    "InitializingServer"
+  ],
+  "IconResourcesKeys": [],
+  "Importance": "Medium",
+  "InterfaceAssemblyName": "Sungero.Domain.Interfaces",
+  "InterfaceNamespace": "mtg.AutotextsModule",
+  "IsolatedAssemblyName": "mtg.AutotextsModule.Isolated",
+  "IsolatedNamespace": "mtg.AutotextsModule.Isolated",
+  "IsVisible": false,
+  "Overridden": [
+    "IsVisible"
+  ],
+  "PublicConstants": [
+    {
+      "Name": "ApprovalTaskUsageArea",
+      "ParentClasses": [
+        "Module",
+        "UsageAreaGuid"
+      ],
+      "TypeName": "System.String",
+      "Value": "\"632E88E8-1E42-48A5-8B46-5E98E6A5E948\""
+    },
+    {
+      "Name": "AutotextsCreateRole",
+      "ParentClasses": [
+        "Module",
+        "RoleGuid"
+      ],
+      "TypeName": "System.Guid",
+      "Value": "new System.Guid(\"9399C059-0D24-4B50-8ACA-FE3DE005E7A1\")"
+    },
+    {
+      "Name": "AutotextsUseRole",
+      "ParentClasses": [
+        "Module",
+        "RoleGuid"
+      ],
+      "TypeName": "System.Guid",
+      "Value": "new System.Guid(\"95941D76-0F6B-4E58-A6BD-B11654FEB350\")"
+    }
+  ],
+  "PublicFunctions": [
+    {
+      "Name": "GetAutotexts",
+      "IsRemote": true,
+      "Parameters": [
+        {
+          "Name": "usageAreaGuid",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "global::System.Linq.IQueryable<global::mtg.AutotextsModule.IAutotext>",
+      "ReturnTypeFullName": "System.Linq.IQueryable"
+    }
+  ],
+  "PublicStructures": [],
+  "ResourceInterfaceAssemblyName": "Sungero.Domain.Interfaces",
+  "ResourceInterfaceNamespace": "mtg.AutotextsModule",
+  "ResourcesKeys": [
+    "RoleNameAutotextsUse",
+    "RoleNameAutotextsCreate",
+    "DescriptionAutotextsUseRole",
+    "DescriptionAutotextsCreateRole",
+    "ApprovalTaskUsageAreaName"
+  ],
+  "ServerAssemblyName": "mtg.AutotextsModule.Server",
+  "ServerNamespace": "mtg.AutotextsModule.Server",
+  "SharedAssemblyName": "mtg.AutotextsModule.Shared",
+  "SharedNamespace": "mtg.AutotextsModule.Shared",
+  "SpecialFolders": [],
+  "Version": "0.0.1.0",
+  "Widgets": [],
+  "Versions": [
+    {
+      "Type": "ModuleMetadata",
+      "Number": 8
+    },
+    {
+      "Type": "DomainApi",
+      "Number": 3
+    }
+  ]
+}
