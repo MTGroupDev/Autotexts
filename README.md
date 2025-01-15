@@ -1,5 +1,5 @@
 # Autotexts
-Решение для Directum RX 4.10
+Решение для Directum RX 4.11
 ____
 # Возможности решения
 
