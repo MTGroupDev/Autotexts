@@ -6,7 +6,7 @@ using Sungero.CoreEntities;
 
 namespace mtg.AutotextsTemplate.Server
 {
-  public class ModuleAsyncHandlers
+  public partial class ModuleAsyncHandlers
   {
 
   }

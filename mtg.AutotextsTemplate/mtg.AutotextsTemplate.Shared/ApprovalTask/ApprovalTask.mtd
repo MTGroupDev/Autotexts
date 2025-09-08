@@ -87,6 +87,7 @@
       "Versions": []
     }
   ],
+  "FormViewUuid": "c7fcde8e-a657-462e-bb24-a1fd9538bf8d",
   "IconResourcesKeys": [],
   "IsCreateVersionsOnLayerForbidden": true,
   "IsVisibleThreadText": true,
@@ -223,7 +224,7 @@
   "Versions": [
     {
       "Type": "TaskMetadata",
-      "Number": 3
+      "Number": 4
     },
     {
       "Type": "WorkflowEntityMetadata",

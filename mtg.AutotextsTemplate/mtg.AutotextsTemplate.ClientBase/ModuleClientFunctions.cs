@@ -6,7 +6,7 @@ using Sungero.CoreEntities;
 
 namespace mtg.AutotextsTemplate.Client
 {
-  public class ModuleFunctions
+  public partial class ModuleFunctions
   {
 
   }
