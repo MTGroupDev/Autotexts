@@ -87,7 +87,6 @@
       "PreviousItemId": "ceaecb6f-84b7-4775-b384-31f669b7d43a"
     }
   ],
-  "IconResourcesKeys": [],
   "Importance": "Medium",
   "InterfaceAssemblyName": "Sungero.Domain.Interfaces",
   "InterfaceNamespace": "mtg.AutotextsTemplate",
@@ -97,7 +96,6 @@
   "PublicStructures": [],
   "ResourceInterfaceAssemblyName": "Sungero.Domain.Interfaces",
   "ResourceInterfaceNamespace": "mtg.AutotextsTemplate",
-  "ResourcesKeys": [],
   "ServerAssemblyName": "mtg.AutotextsTemplate.Server",
   "ServerNamespace": "mtg.AutotextsTemplate.Server",
   "SharedAssemblyName": "mtg.AutotextsTemplate.Shared",
@@ -108,11 +106,11 @@
   "Versions": [
     {
       "Type": "SolutionMetadata",
-      "Number": 9
+      "Number": 11
     },
     {
       "Type": "ModuleMetadata",
-      "Number": 9
+      "Number": 11
     },
     {
       "Type": "DomainApi",

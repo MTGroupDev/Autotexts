@@ -6,7 +6,7 @@ using Sungero.CoreEntities;
 
 namespace mtg.Autotexts.Server
 {
-  public class ModuleJobs
+  public partial class ModuleJobs
   {
 
   }
