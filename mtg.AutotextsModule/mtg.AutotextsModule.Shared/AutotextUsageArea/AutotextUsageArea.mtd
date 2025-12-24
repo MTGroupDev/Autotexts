@@ -65,6 +65,7 @@
   "IntegrationServiceName": "AutotextsModuleAutotextUsageArea",
   "IsAutoCreated": true,
   "IsVisible": false,
+  "ListViewUuid": "402e1764-e671-4674-8883-c38e9c09d02a",
   "OperationsClass": "",
   "Overridden": [
     "IsVisible",
