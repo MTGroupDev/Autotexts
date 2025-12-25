@@ -87,10 +87,12 @@
       "Versions": []
     }
   ],
+  "FormViewUuid": "c7fcde8e-a657-462e-bb24-a1fd9538bf8d",
   "IconResourcesKeys": [],
   "IsCreateVersionsOnLayerForbidden": true,
   "IsVisibleThreadText": true,
   "LayeredFromGuid": "100950d0-03d2-44f0-9e31-f9c8dfdf3829",
+  "ListViewUuid": "027e4f7f-df70-45b0-ab7b-5fb78c90c6db",
   "NeverLinkToParentWhenCreated": true,
   "OperationsClass": "",
   "Overridden": [
@@ -223,7 +225,7 @@
   "Versions": [
     {
       "Type": "TaskMetadata",
-      "Number": 3
+      "Number": 4
     },
     {
       "Type": "WorkflowEntityMetadata",
