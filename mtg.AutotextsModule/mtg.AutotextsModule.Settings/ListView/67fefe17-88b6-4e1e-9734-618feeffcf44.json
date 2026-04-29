@@ -1,0 +1,247 @@
+{
+  "$type": "Sungero.DataExport.ExportingObject, Sungero.DataExport",
+  "FolderType": null,
+  "EntityType": "6725f88e-8e9a-4c01-8f0d-9dd161e771b1",
+  "ContextType": "List",
+  "ListViewType": "Table",
+  "EmbeddedViewType": "None",
+  "List": {
+    "$type": "Sungero.NoCode.Settings.Interfaces.Models.List.ListSettings, Sungero.NoCode.Settings.Interfaces",
+    "Grid": {
+      "$type": "Sungero.NoCode.Settings.Interfaces.Models.List.GridSettings, Sungero.NoCode.Settings.Interfaces",
+      "BaseEntityTypeGuid": "6725f88e-8e9a-4c01-8f0d-9dd161e771b1",
+      "Columns": {
+        "$type": "System.Collections.Generic.List`1[[Sungero.NoCode.Settings.Interfaces.Models.List.ColumnSettings, Sungero.NoCode.Settings.Interfaces]], System.Private.CoreLib",
+        "$values": [
+          {
+            "$type": "Sungero.NoCode.Settings.Interfaces.Models.List.ColumnSettings, Sungero.NoCode.Settings.Interfaces",
+            "EntityTypeGuid": "6725f88e-8e9a-4c01-8f0d-9dd161e771b1",
+            "PropertyGuid": "d7319199-3333-49cc-a7b9-8467617ccf20",
+            "Width": 76.0,
+            "VisibleIndex": 1,
+            "IsVisible": true,
+            "IsHiddenInUI": false,
+            "IsRelativeWidth": false,
+            "SortOrder": null,
+            "GroupIndex": null
+          },
+          {
+            "$type": "Sungero.NoCode.Settings.Interfaces.Models.List.ColumnSettings, Sungero.NoCode.Settings.Interfaces",
+            "EntityTypeGuid": "6725f88e-8e9a-4c01-8f0d-9dd161e771b1",
+            "PropertyGuid": "1dcedc29-5140-4770-ac92-eabc212326a1",
+            "Width": 10.0,
+            "VisibleIndex": 5,
+            "IsVisible": true,
+            "IsHiddenInUI": false,
+            "IsRelativeWidth": true,
+            "SortOrder": null,
+            "GroupIndex": null
+          },
+          {
+            "$type": "Sungero.NoCode.Settings.Interfaces.Models.List.ColumnSettings, Sungero.NoCode.Settings.Interfaces",
+            "EntityTypeGuid": "6725f88e-8e9a-4c01-8f0d-9dd161e771b1",
+            "PropertyGuid": "c859c6cd-1d1e-49a9-af0d-214e372e8018",
+            "Width": 20.0,
+            "VisibleIndex": 2,
+            "IsVisible": true,
+            "IsHiddenInUI": false,
+            "IsRelativeWidth": true,
+            "SortOrder": null,
+            "GroupIndex": null
+          },
+          {
+            "$type": "Sungero.NoCode.Settings.Interfaces.Models.List.ColumnSettings, Sungero.NoCode.Settings.Interfaces",
+            "EntityTypeGuid": "6725f88e-8e9a-4c01-8f0d-9dd161e771b1",
+            "PropertyGuid": "df44d31d-467a-4671-a715-43817558cd9d",
+            "Width": 20.0,
+            "VisibleIndex": 4,
+            "IsVisible": true,
+            "IsHiddenInUI": false,
+            "IsRelativeWidth": true,
+            "SortOrder": null,
+            "GroupIndex": null
+          },
+          {
+            "$type": "Sungero.NoCode.Settings.Interfaces.Models.List.ColumnSettings, Sungero.NoCode.Settings.Interfaces",
+            "EntityTypeGuid": "6725f88e-8e9a-4c01-8f0d-9dd161e771b1",
+            "PropertyGuid": "90178059-6e82-4017-b954-e1b1da0890b3",
+            "Width": 10.0,
+            "VisibleIndex": 6,
+            "IsVisible": false,
+            "IsHiddenInUI": false,
+            "IsRelativeWidth": true,
+            "SortOrder": null,
+            "GroupIndex": null
+          },
+          {
+            "$type": "Sungero.NoCode.Settings.Interfaces.Models.List.ColumnSettings, Sungero.NoCode.Settings.Interfaces",
+            "EntityTypeGuid": "6725f88e-8e9a-4c01-8f0d-9dd161e771b1",
+            "PropertyGuid": "1ff6f69c-b88d-4091-82f1-181a183e0b94",
+            "Width": 20.0,
+            "VisibleIndex": 3,
+            "IsVisible": true,
+            "IsHiddenInUI": false,
+            "IsRelativeWidth": true,
+            "SortOrder": null,
+            "GroupIndex": null
+          }
+        ]
+      },
+      "TwoLinesMode": false,
+      "ShowGroupPanel": false,
+      "AutoWidth": false
+    },
+    "Filters": {
+      "$type": "Sungero.NoCode.Settings.Interfaces.Models.List.FilterSettings[], Sungero.NoCode.Settings.Interfaces",
+      "$values": [
+        {
+          "$type": "Sungero.NoCode.Settings.Interfaces.Models.List.FilterSettings, Sungero.NoCode.Settings.Interfaces",
+          "IsVisible": true,
+          "NameGuid": "9c3f497b-7435-43ac-bafd-54808bb660bc",
+          "Name": "custom_filter"
+        },
+        {
+          "$type": "Sungero.NoCode.Settings.Interfaces.Models.List.FilterSettings, Sungero.NoCode.Settings.Interfaces",
+          "IsVisible": true,
+          "NameGuid": "c59bbe03-a6c1-48fd-b701-fded407ee93a",
+          "Name": "State"
+        },
+        {
+          "$type": "Sungero.NoCode.Settings.Interfaces.Models.List.FilterSettings, Sungero.NoCode.Settings.Interfaces",
+          "IsVisible": true,
+          "NameGuid": "f0bd6a09-7612-487c-9eaa-58030ef37586",
+          "Name": "StateFlagsList"
+        },
+        {
+          "$type": "Sungero.NoCode.Settings.Interfaces.Models.List.FilterSettings, Sungero.NoCode.Settings.Interfaces",
+          "IsVisible": true,
+          "NameGuid": "e26f2517-625b-49a6-bdcf-5c2469499973",
+          "Name": "Active"
+        },
+        {
+          "$type": "Sungero.NoCode.Settings.Interfaces.Models.List.FilterSettings, Sungero.NoCode.Settings.Interfaces",
+          "IsVisible": true,
+          "NameGuid": "54f0f8ca-d51f-4b70-beab-ba2626f63c2d",
+          "Name": "Closed"
+        },
+        {
+          "$type": "Sungero.NoCode.Settings.Interfaces.Models.List.FilterSettings, Sungero.NoCode.Settings.Interfaces",
+          "IsVisible": true,
+          "NameGuid": "f5974069-7909-4de4-a2fe-879193ab5401",
+          "Name": "Author"
+        },
+        {
+          "$type": "Sungero.NoCode.Settings.Interfaces.Models.List.FilterSettings, Sungero.NoCode.Settings.Interfaces",
+          "IsVisible": true,
+          "NameGuid": "212566fe-00d8-43a0-a4e2-d6b6ed67de15",
+          "Name": "Author"
+        },
+        {
+          "$type": "Sungero.NoCode.Settings.Interfaces.Models.List.FilterSettings, Sungero.NoCode.Settings.Interfaces",
+          "IsVisible": true,
+          "NameGuid": "eb34cda6-0c52-4c21-be27-99dd55845af1",
+          "Name": "UsageArea"
+        },
+        {
+          "$type": "Sungero.NoCode.Settings.Interfaces.Models.List.FilterSettings, Sungero.NoCode.Settings.Interfaces",
+          "IsVisible": true,
+          "NameGuid": "77a84669-c273-45fd-96ea-5227c1a1f451",
+          "Name": "UsageArea"
+        }
+      ]
+    },
+    "Ribbon": {
+      "$type": "Sungero.NoCode.Settings.Interfaces.Models.Entity.Ribbon.RibbonSettings, Sungero.NoCode.Settings.Interfaces",
+      "Groups": {
+        "$type": "System.Collections.Generic.List`1[[Sungero.NoCode.Settings.Interfaces.Models.Entity.Ribbon.RibbonSettingsGroup, Sungero.NoCode.Settings.Interfaces]], System.Private.CoreLib",
+        "$values": []
+      },
+      "Buttons": {
+        "$type": "System.Collections.Generic.List`1[[Sungero.NoCode.Settings.Interfaces.Models.Entity.Ribbon.RibbonSettingsButton, Sungero.NoCode.Settings.Interfaces]], System.Private.CoreLib",
+        "$values": []
+      }
+    },
+    "LastUpdate": "2026-04-29T15:18:42.183"
+  },
+  "Criteria": {
+    "$type": "Sungero.NoCode.Expression.UnionExpression, Sungero.NoCode.Expression",
+    "Expressions": {
+      "$type": "System.Collections.ObjectModel.Collection`1[[Sungero.NoCode.Expression.BaseExpression, Sungero.NoCode.Expression]], System.Private.CoreLib",
+      "$values": [
+        {
+          "$type": "Sungero.NoCode.Expression.ConditionExpression, Sungero.NoCode.Expression",
+          "LeftExpression": {
+            "$type": "Sungero.NoCode.Expression.SimpleExpression, Sungero.NoCode.Expression",
+            "Description": "Текущий пользователь → Родительская группа",
+            "Tokens": {
+              "$type": "System.Collections.ObjectModel.Collection`1[[Sungero.NoCode.Expression.Tokens.BaseToken, Sungero.NoCode.Expression]], System.Private.CoreLib",
+              "$values": [
+                {
+                  "$type": "Sungero.NoCode.Expression.Tokens.FunctionToken, Sungero.NoCode.Expression",
+                  "Name": "GetCurrentUser",
+                  "ParentTypeId": "32f58d8b-2a33-4eb5-813e-5cd602356b06",
+                  "Parameters": {
+                    "$type": "System.Collections.ObjectModel.Collection`1[[Sungero.NoCode.Expression.Tokens.BaseFunctionParameter, Sungero.NoCode.Expression]], System.Private.CoreLib",
+                    "$values": []
+                  }
+                },
+                {
+                  "$type": "Sungero.NoCode.Expression.Tokens.MetadataPropertyToken, Sungero.NoCode.Expression",
+                  "Id": "ba8b8752-32f6-41d0-9c73-52ce9f94f51f",
+                  "ParentTypeId": "243c2d26-f5f7-495f-9faf-951d91215c77"
+                }
+              ]
+            },
+            "Version": 3
+          },
+          "Operator": {
+            "$type": "Sungero.NoCode.Expression.Tokens.FunctionToken, Sungero.NoCode.Expression",
+            "Name": "IsEqual",
+            "ParentTypeId": "04608308-d517-4988-93b4-4312c3ed0c4c",
+            "Parameters": {
+              "$type": "System.Collections.ObjectModel.Collection`1[[Sungero.NoCode.Expression.Tokens.BaseFunctionParameter, Sungero.NoCode.Expression]], System.Private.CoreLib",
+              "$values": [
+                {
+                  "$type": "Sungero.NoCode.Expression.Tokens.FunctionParameter, Sungero.NoCode.Expression",
+                  "Name": "object1",
+                  "Type": "System.Object, System.Private.CoreLib"
+                },
+                {
+                  "$type": "Sungero.NoCode.Expression.Tokens.FunctionParameter, Sungero.NoCode.Expression",
+                  "Name": "object2",
+                  "Type": "System.Object, System.Private.CoreLib"
+                }
+              ]
+            }
+          },
+          "RightExpression": {
+            "$type": "Sungero.NoCode.Expression.SimpleExpression, Sungero.NoCode.Expression",
+            "Description": "Роль с правами на создание автотекстов",
+            "Tokens": {
+              "$type": "System.Collections.ObjectModel.Collection`1[[Sungero.NoCode.Expression.Tokens.BaseToken, Sungero.NoCode.Expression]], System.Private.CoreLib",
+              "$values": [
+                {
+                  "$type": "Sungero.NoCode.Expression.Tokens.EntityAdaptationToken`1[[System.Guid, System.Private.CoreLib]], Sungero.NoCode.Expression",
+                  "Value": "9399c059-0d24-4b50-8aca-fe3de005e7a1",
+                  "TypeGuid": "6782a112-3ae3-4677-840e-90452ee8f7b7"
+                }
+              ]
+            },
+            "Version": 3
+          },
+          "LogicalOperator": null,
+          "Version": 3
+        }
+      ]
+    },
+    "Version": 0
+  },
+  "Priority": 1,
+  "SettingsVersion": 2,
+  "ClientContext": "DefaultContext",
+  "IsDevSettings": false,
+  "Uuid": "67fefe17-88b6-4e1e-9734-618feeffcf44",
+  "ModuleNameGuid": "5933d4a5-2447-44ae-bc61-635eb4436ff6",
+  "StoreAsDefaultSetting": true,
+  "Status": "Active"
+}
