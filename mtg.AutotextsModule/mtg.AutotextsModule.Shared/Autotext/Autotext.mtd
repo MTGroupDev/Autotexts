@@ -172,6 +172,7 @@
   "IconResourcesKeys": [],
   "IsStatusEnabled": true,
   "IsVisible": false,
+  "ListViewUuid": "3daaa770-2709-4294-a12c-3d41028918cc",
   "OperationsClass": "",
   "Overridden": [
     "IsVisible",
@@ -259,7 +260,7 @@
   "Versions": [
     {
       "Type": "EntityMetadata",
-      "Number": 13
+      "Number": 14
     }
   ]
 }
