@@ -1,0 +1,90 @@
+{
+  "$type": "Sungero.DataExport.ExportingObject, Sungero.DataExport",
+  "FolderType": null,
+  "EntityType": "f88cba0e-4851-4f97-b1d8-ede6638b8d7d",
+  "ContextType": "List",
+  "ListViewType": "Table",
+  "EmbeddedViewType": "None",
+  "List": null,
+  "Criteria": {
+    "$type": "Sungero.NoCode.Expression.UnionExpression, Sungero.NoCode.Expression",
+    "Expressions": {
+      "$type": "System.Collections.ObjectModel.Collection`1[[Sungero.NoCode.Expression.BaseExpression, Sungero.NoCode.Expression]], System.Private.CoreLib",
+      "$values": [
+        {
+          "$type": "Sungero.NoCode.Expression.ConditionExpression, Sungero.NoCode.Expression",
+          "LeftExpression": {
+            "$type": "Sungero.NoCode.Expression.SimpleExpression, Sungero.NoCode.Expression",
+            "Description": "Текущий пользователь → Родительская группа",
+            "Tokens": {
+              "$type": "System.Collections.ObjectModel.Collection`1[[Sungero.NoCode.Expression.Tokens.BaseToken, Sungero.NoCode.Expression]], System.Private.CoreLib",
+              "$values": [
+                {
+                  "$type": "Sungero.NoCode.Expression.Tokens.FunctionToken, Sungero.NoCode.Expression",
+                  "Name": "GetCurrentUser",
+                  "ParentTypeId": "32f58d8b-2a33-4eb5-813e-5cd602356b06",
+                  "Parameters": {
+                    "$type": "System.Collections.ObjectModel.Collection`1[[Sungero.NoCode.Expression.Tokens.BaseFunctionParameter, Sungero.NoCode.Expression]], System.Private.CoreLib",
+                    "$values": []
+                  }
+                },
+                {
+                  "$type": "Sungero.NoCode.Expression.Tokens.MetadataPropertyToken, Sungero.NoCode.Expression",
+                  "Id": "ba8b8752-32f6-41d0-9c73-52ce9f94f51f",
+                  "ParentTypeId": "243c2d26-f5f7-495f-9faf-951d91215c77"
+                }
+              ]
+            },
+            "Version": 3
+          },
+          "Operator": {
+            "$type": "Sungero.NoCode.Expression.Tokens.FunctionToken, Sungero.NoCode.Expression",
+            "Name": "IncludedIn",
+            "ParentTypeId": "04608308-d517-4988-93b4-4312c3ed0c4c",
+            "Parameters": {
+              "$type": "System.Collections.ObjectModel.Collection`1[[Sungero.NoCode.Expression.Tokens.BaseFunctionParameter, Sungero.NoCode.Expression]], System.Private.CoreLib",
+              "$values": [
+                {
+                  "$type": "Sungero.NoCode.Expression.Tokens.FunctionParameter, Sungero.NoCode.Expression",
+                  "Name": "value",
+                  "Type": "Sungero.Domain.Shared.IEntity, Sungero.Domain.Shared"
+                },
+                {
+                  "$type": "Sungero.NoCode.Expression.Tokens.FunctionParameter, Sungero.NoCode.Expression",
+                  "Name": "collection",
+                  "Type": "System.Collections.Generic.IEnumerable`1[[Sungero.Domain.Shared.IEntity, Sungero.Domain.Shared]], System.Private.CoreLib"
+                }
+              ]
+            }
+          },
+          "RightExpression": {
+            "$type": "Sungero.NoCode.Expression.EntityListExpression, Sungero.NoCode.Expression",
+            "Description": "[Роль с правами на создание автотекстов]",
+            "EntityTokens": {
+              "$type": "System.Collections.ObjectModel.Collection`1[[Sungero.NoCode.Expression.Tokens.BaseToken, Sungero.NoCode.Expression]], System.Private.CoreLib",
+              "$values": [
+                {
+                  "$type": "Sungero.NoCode.Expression.Tokens.EntityAdaptationToken`1[[System.Guid, System.Private.CoreLib]], Sungero.NoCode.Expression",
+                  "Value": "9399c059-0d24-4b50-8aca-fe3de005e7a1",
+                  "TypeGuid": "6782a112-3ae3-4677-840e-90452ee8f7b7"
+                }
+              ]
+            },
+            "Version": 0
+          },
+          "LogicalOperator": null,
+          "Version": 3
+        }
+      ]
+    },
+    "Version": 0
+  },
+  "Priority": 1,
+  "SettingsVersion": 1,
+  "ClientContext": "DefaultContext",
+  "IsDevSettings": false,
+  "Uuid": "416f8da0-c15f-489b-88e0-6930a39140d3",
+  "ModuleNameGuid": "5933d4a5-2447-44ae-bc61-635eb4436ff6",
+  "StoreAsDefaultSetting": true,
+  "Status": "Active"
+}

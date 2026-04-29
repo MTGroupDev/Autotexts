@@ -1,0 +1,32 @@
+{
+  "_Title_4ef93af74b8b444d842844f58360e3d7": {
+    "en-US": "Autotexts",
+    "ru-RU": "Автотексты"
+  },
+  "Action_Description_99bf80c036e84ca585bd33a0b3c029d9": {
+    "ru-RU": "Переход к списку областей использования"
+  },
+  "Action_Description_f0ea22c5f83748f2af14552824feedb6": {
+    "ru-RU": "Переход к списку автотекстов"
+  },
+  "Action_Title_99bf80c036e84ca585bd33a0b3c029d9": {
+    "en-US": "Action",
+    "ru-RU": "Области использования"
+  },
+  "Action_Title_f0ea22c5f83748f2af14552824feedb6": {
+    "en-US": "Action",
+    "ru-RU": "Автотексты"
+  },
+  "Description": {},
+  "Group_Title_8d14449f117942c6a13f906d6db58126": {
+    "en-US": "Group",
+    "ru-RU": "Списки"
+  },
+  "Name": {
+    "en-US": "Autotexts",
+    "ru-RU": "Автотексты"
+  },
+  "Tab_Title_bc36f2760ce04dcfb2ffccda68496657": {
+    "en-US": "Tab"
+  }
+}
