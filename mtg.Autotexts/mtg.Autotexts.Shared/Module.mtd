@@ -40,7 +40,7 @@
   "SharedAssemblyName": "mtg.Autotexts.Shared",
   "SharedNamespace": "mtg.Autotexts.Shared",
   "SpecialFolders": [],
-  "Version": "0.0.1.0",
+  "Version": "0.0.1.1",
   "Widgets": [],
   "Versions": [
     {

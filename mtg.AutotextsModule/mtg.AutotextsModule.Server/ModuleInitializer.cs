@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using Sungero.Core;
@@ -86,6 +86,9 @@ namespace mtg.AutotextsModule.Server
       // Модуль "Автотексты".
       AutotextsModule.Autotexts.AccessRights.Grant(role, DefaultAccessRightsTypes.Read);
       AutotextsModule.AutotextUsageAreas.AccessRights.Grant(role, DefaultAccessRightsTypes.Read);
+      
+      AutotextsModule.Autotexts.AccessRights.Save();
+      AutotextsModule.AutotextUsageAreas.AccessRights.Save();
     }
     
     /// <summary>
@@ -102,6 +105,9 @@ namespace mtg.AutotextsModule.Server
       // Модуль "Автотексты".
       AutotextsModule.Autotexts.AccessRights.Grant(role, DefaultAccessRightsTypes.Create);
       AutotextsModule.AutotextUsageAreas.AccessRights.Grant(role, DefaultAccessRightsTypes.Read);
+      
+      AutotextsModule.Autotexts.AccessRights.Save();
+      AutotextsModule.AutotextUsageAreas.AccessRights.Save();
     }
   }
 }
