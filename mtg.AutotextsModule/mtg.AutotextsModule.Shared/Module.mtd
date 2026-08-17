@@ -116,7 +116,7 @@
       ],
       "Placement": "Shared",
       "ReturnType": "global::System.Linq.IQueryable<global::mtg.AutotextsModule.IAutotext>",
-      "ReturnTypeFullName": "System.Linq.IQueryable"
+      "ReturnTypeFullName": "System.Linq.IQueryable`1[[mtg.AutotextsModule.IAutotext, Sungero.Domain.Interfaces]]"
     }
   ],
   "PublicStructures": [],
@@ -134,7 +134,7 @@
   "SharedAssemblyName": "mtg.AutotextsModule.Shared",
   "SharedNamespace": "mtg.AutotextsModule.Shared",
   "SpecialFolders": [],
-  "Version": "0.0.1.0",
+  "Version": "0.0.1.1",
   "Widgets": [],
   "Versions": [
     {
