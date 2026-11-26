@@ -22,8 +22,8 @@
       "IsAncestorMetadata": true,
       "IsRequired": true,
       "Overridden": [
-        "Title",
-        "Description"
+        "Description",
+        "Title"
       ],
       "Versions": []
     },
@@ -34,8 +34,8 @@
       "Constraints": [],
       "IsAncestorMetadata": true,
       "Overridden": [
-        "Title",
-        "Description"
+        "Description",
+        "Title"
       ],
       "Versions": []
     },
@@ -46,8 +46,8 @@
       "Constraints": [],
       "IsAncestorMetadata": true,
       "Overridden": [
-        "Title",
-        "Description"
+        "Description",
+        "Title"
       ],
       "Versions": []
     }

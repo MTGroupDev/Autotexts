@@ -175,11 +175,11 @@
   "ListViewUuid": "3daaa770-2709-4294-a12c-3d41028918cc",
   "OperationsClass": "",
   "Overridden": [
-    "IsVisible",
-    "IsStatusEnabled",
     "AccessRightsMode",
+    "CanBeSearch",
     "CanBeUsedInIntegration",
-    "CanBeSearch"
+    "IsStatusEnabled",
+    "IsVisible"
   ],
   "Properties": [
     {
@@ -188,9 +188,9 @@
       "Name": "Status",
       "IsAncestorMetadata": true,
       "Overridden": [
-        "IsVisibility",
+        "CanBeSearch",
         "IsShowedInList",
-        "CanBeSearch"
+        "IsVisibility"
       ]
     },
     {
